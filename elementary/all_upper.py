@@ -1,5 +1,7 @@
 # All Upper
+
 def is_all_upper(text):
+    """ Checks if a given string has all symbols in upper case """
     return text.upper() == text
 
 # Running some tests..

@@ -1,6 +1,7 @@
 #%%
 # Acceptable Password I
 def is_acceptable_password(password):
+    """ Check the length if bigger than 6 """
     return len(password) > 6
 
 # Running some tests...

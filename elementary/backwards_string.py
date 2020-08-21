@@ -1,5 +1,7 @@
 # Backward String
+
 def backward_string(val: str) -> str:
+    """ Returns a given string in reverse order """
     return val[::-1]
 
 # Running some tests..
