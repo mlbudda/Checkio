@@ -1,6 +1,8 @@
 # Beginning Zeros
+
 def beginning_zeros(number):
-    # your code here
+    """ Finds how many zero digits ("0") are at 
+    the beginning of the given string """
     counter = 0
     for i in number:
         if i == '0':
@@ -8,6 +10,7 @@ def beginning_zeros(number):
         elif i != '0':
             break
     return counter
+
 
 # Running some tests..
 print(beginning_zeros('100') == 0)

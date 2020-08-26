@@ -1,5 +1,8 @@
 # End Zeros
+
+
 def end_zeros(num):
+    """ Finds out how many zeros a given number has at the end """
     result = 0
     for i in str(num)[::-1]:
         if int(i) == 0:
@@ -7,6 +10,7 @@ def end_zeros(num):
         else:
             break
     return result
+
 
 # Running some tests..
 print(end_zeros(0) == 1)
