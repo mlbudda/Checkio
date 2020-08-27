@@ -1,5 +1,8 @@
 # Nearest Value
+
+
 def nearest_value(values,one):
+    """ Finds the nearest value to the given one """
     values_list = list(values)
     values_list.sort()
     if values_list.count(one):
@@ -18,6 +21,7 @@ def nearest_value(values,one):
             return values_list[values_list.index(one) - 1]
         else:
             return values_list[values_list.index(one) + 1]
+
 
 # Running some tests...
 print(nearest_value({4, 7, 10, 11, 12, 17}, 9) == 10)

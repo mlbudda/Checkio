@@ -1,6 +1,10 @@
 # Max Digit
+
+
 def max_digit(number):
+    """ Returns which digit in this number is the biggest """
     return int(max(str(number)))
+
 
 # Running some tests..
 print(max_digit(0) == 0)

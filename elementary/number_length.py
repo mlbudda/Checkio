@@ -1,6 +1,9 @@
 # Number Length
+
+
 def number_length(a):
     return len(str(a))
+
 
 # Running some tests..
 print(number_length(10) == 2)

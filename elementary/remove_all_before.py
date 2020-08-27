@@ -1,9 +1,13 @@
 # Remove All Before
+
+
 def remove_all_before(items,border):
+    """ Removes from the list all of the elements before the given one """
     try:
         return items[items.index(border):]
     except ValueError:
         return items
+
 
 # Running some tests.
 print(list(remove_all_before([1, 2, 3, 4, 5], 3)) == [3, 4, 5])

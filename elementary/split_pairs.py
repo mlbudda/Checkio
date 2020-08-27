@@ -1,8 +1,12 @@
 # Split Pairs
+
+
 def split_pairs(a):
+    """ Splits the string into pairs of two character """
     if (len(a) % 2) != 0:
         a += '_'
     return [a[i:i + 2] for i in range(0, len(a), 2)]
+
 
 # Running some tests...
 print(list(split_pairs('abcd')) == ['ab', 'cd'])
